@@ -1,0 +1,166 @@
+
+
+/* NAVBAR */
+
+.navbar{
+    background-color: #ffffff !important;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    color: #111111 !important;
+}
+
+.navbar .nav li a{
+    color: #111111; 
+}
+.navbar .nav li a:hover{
+    border-bottom: 3px #007bff solid;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #007bff;
+    font-weight: 100;
+}
+
+/* NAVBAR */
+
+/*Search area*/
+
+.searh-btn{
+    opacity: 0.6;
+}
+
+.searh-btn:hover{
+    opacity: 1;
+}
+/*Search area*/
+
+/* Popular restaurent */
+.cusians{
+    padding-top: 300px;
+    margin-bottom: 100px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Popular restaurent */
+
+/* offer */
+.side{
+    height: 600px;
+    overflow-y: scroll;
+}
+/* offer */
+
+/* catagories */
+
+.CarrotIcon{
+    color: #ed9121;
+}
+
+.ChickenIcon{
+    color: #c66b27;
+}
+
+.BurgerIcon{
+    color: #e6af5d;
+}
+
+.PizzaIcon{
+    color: #bf8d3c ;
+}
+
+.IcecreamIcon{
+    color: #48342B;
+}
+
+.CakeIcon{
+    color: #f3d5ac;
+}
+
+.icon:hover{
+    opacity: 0.7;
+}
+/* catagories */
+
+.footer{
+    margin-top: 10px;
+    color: #ffffff;
+    height: 400px;
+    background-color: black;
+}
+.footerHr{
+    border-top: 1px solid #ffffff;
+}
+
+.FooterHeading{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.FooterList{
+    background-color: #111111;
+    margin-top: 10px;
+}
+
+.footer .fab{
+    padding: 10px;
+}
+
+.SocialName{
+    margin-top: 15px;
+}
+
+.RestaurentName{
+    margin: 40px;
+}
+
+.addtocart{
+    border-radius: 50%;
+    background-color: transparent !important;
+    border : none;
+    float: right;
+}
+
+.itemcount{
+    width: 4%;
+    border-radius: 50%;
+    border : 1px black solid;
+    float: right;
+}
+
+.price{
+    float: right;
+}
+
+@media screen and (min-width: 480px) {
+    .Search{
+        margin-top: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 767px ) {
+    .footer{
+        color: #ffffff;
+        height: 1000px;
+        background-color: black;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Search{
+        margin-top: 200px;
+    }
+    .footer{
+        color: #ffffff;
+        height: 1100px;
+        background-color: black;
+    }
+}
+
